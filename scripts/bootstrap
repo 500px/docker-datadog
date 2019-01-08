@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export PROGRAM=$@
+
+source /usr/local/bin/env-decrypt
+
+$PROGRAM
