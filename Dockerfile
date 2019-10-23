@@ -1,4 +1,4 @@
-FROM datadog/agent:6.8.3
+FROM datadog/agent:6.14.1
 
 ARG NODE_VERSION=node_10.x
 ARG NODE_APT_KEY=68576280
